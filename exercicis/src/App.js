@@ -1,6 +1,7 @@
 import Comptador from "./Comptador/Comptador";
 import Galeria from "./Galeria/Galeria";
 import Acordio from "./Acordio/Acordio";
+import Carrusel from "./Carrusel/Carrusel";
 import "./App.css";
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     <div className="App">
       {/* <Galeria />
       <Comptador />
-      */}
       <Acordio />
+      */}
+      <Carrusel />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.Display {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.mostra {
+  width: 1000px;
+  height: 600px;
+}
+.Carrusel {
+  display: flex;
+  flex-direction: column;
+}
