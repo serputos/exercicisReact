@@ -3,6 +3,7 @@ import Galeria from "./Galeria/Galeria";
 import Acordio from "./Acordio/Acordio";
 import Carrusel from "./Carrusel/Carrusel";
 import "./App.css";
+import TresEnRatlla from "./TresEnRatlla/TresEnRatlla";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       {/* <Galeria />
       <Comptador />
       <Acordio />
+       <Carrusel />
       */}
-      <Carrusel />
+      <TresEnRatlla />
     </div>
   );
 }
