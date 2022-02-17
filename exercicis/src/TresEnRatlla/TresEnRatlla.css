@@ -5,7 +5,13 @@
   margin: 50px;
 }
 
-.Boto {
+.boto {
   width: 33%;
   height: 150px;
+  float: left;
+}
+.BotoX {
+  width: 33%;
+  height: 150px;
+  float: left;
 }
