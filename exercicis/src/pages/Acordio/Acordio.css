@@ -1,0 +1,7 @@
+.Acordio .noMostra {
+  display: none;
+}
+.Acordio .Display {
+  display: flex;
+  flex-direction: column;
+}

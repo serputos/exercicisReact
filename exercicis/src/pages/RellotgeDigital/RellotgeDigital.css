@@ -1,0 +1,8 @@
+.noMostrarData {
+  display: none;
+}
+.DisplayRellotge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
