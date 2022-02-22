@@ -81,7 +81,7 @@ function TresEnRatlla() {
   return (
     <div className="App">
       <div className="DisplayTres">
-        <div className="BotonsBox">
+        <div>
           {array.map((boto, i) => (
             <button className="boto" onClick={() => ChangeValue(i)}>
               {array[i]}

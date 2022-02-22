@@ -1,7 +1,7 @@
-.Acordio .noMostra {
+.noMostra {
   display: none;
 }
-.Acordio .Display {
+.DisplayAcordio {
   display: flex;
   flex-direction: column;
   text-align: center;

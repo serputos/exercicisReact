@@ -15,12 +15,17 @@ body,
 
 .HolyGrail-content {
   flex: 1;
+
+  margin-top: 50px;
 }
 
 .HolyGrail-nav,
 .HolyGrail-ads {
   /* 12em is the width of the columns */
   flex: 0 0 12em;
+  border-right: 0.5mm solid rgb(49, 47, 190);
+  border-left: 0.5mm solid rgb(49, 47, 190);
+  background-color: rgb(154, 192, 224);
 }
 
 .HolyGrail-nav {
@@ -30,9 +35,12 @@ body,
 
 header,
 footer {
-  background-color: aliceblue;
+  background-color: rgb(29, 125, 209);
   line-height: 5rem;
   padding: 0 1rem;
+  border: 0.5mm solid rgb(49, 47, 190);
+  color: white;
+  font-size: 20px;
 }
 
 main,

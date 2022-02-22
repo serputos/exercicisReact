@@ -16,7 +16,7 @@ function SumadorDeNumeros() {
     <div className="App">
       <div className="DisplaySumadorDeNumeros">
         <h1>
-          Valor : [ <input type="number" ref={inputRef}></input>]
+          Valor : [ <input type="number" ref={inputRef}></input> ]
         </h1>
         <h1>Total : [ {total} ]</h1>
         <button onClick={onClick}>Sumar</button>

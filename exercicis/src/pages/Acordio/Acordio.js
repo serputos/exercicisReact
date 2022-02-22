@@ -21,8 +21,8 @@ function Acordio() {
   };
 
   return (
-    <div className="Acordio">
-      <div className="Display">
+    <div className="App">
+      <div className="DisplayAcordio">
         {titolsArray.map((titol, i) => (
           <>
             <h1 onClick={() => mostraContingut(titol)}>{titol.Titol}</h1>

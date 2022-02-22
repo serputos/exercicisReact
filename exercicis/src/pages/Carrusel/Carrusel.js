@@ -33,7 +33,7 @@ function Carrusel() {
 
   return (
     <div className="Carrusel">
-      <div className="Display">
+      <div className="DisplayCarrusel">
         <>
           <button onClick={beforeFoto}>BEFORE</button>
         </>
