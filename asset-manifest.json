@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/exercicisReact/yarn%20add%20gh-pages/static/css/main.4202308c.css",
+    "main.js": "/exercicisReact/yarn%20add%20gh-pages/static/js/main.2a2744ad.js",
+    "static/js/787.1031ca89.chunk.js": "/exercicisReact/yarn%20add%20gh-pages/static/js/787.1031ca89.chunk.js",
+    "index.html": "/exercicisReact/yarn%20add%20gh-pages/index.html",
+    "main.4202308c.css.map": "/exercicisReact/yarn%20add%20gh-pages/static/css/main.4202308c.css.map",
+    "main.2a2744ad.js.map": "/exercicisReact/yarn%20add%20gh-pages/static/js/main.2a2744ad.js.map",
+    "787.1031ca89.chunk.js.map": "/exercicisReact/yarn%20add%20gh-pages/static/js/787.1031ca89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4202308c.css",
+    "static/js/main.2a2744ad.js"
+  ]
+}
