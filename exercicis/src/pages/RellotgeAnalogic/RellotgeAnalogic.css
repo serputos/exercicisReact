@@ -1,6 +1,8 @@
+.AppRellotgeAnalogic {
+  position: absolute;
+}
+
 .DisplayRellotgeAnalogic {
-  position: relative;
-  margin: auto;
   height: 40vw;
 
   width: 40vw;
@@ -43,6 +45,38 @@
 }
 
 .circulo {
+  position: absolute;
+  height: 40vh;
+  width: 40vh;
   background-color: #bbb;
   border-radius: 50%;
+}
+
+#doce {
+  position: absolute;
+
+  top: 0px;
+  left: 163px;
+  margin: 0px;
+}
+#nueve {
+  position: absolute;
+
+  top: 161px;
+  left: 10px;
+  margin: 0px;
+}
+#tres {
+  position: absolute;
+
+  right: 10px;
+  top: 161px;
+  margin: 0px;
+}
+#seis {
+  position: absolute;
+
+  bottom: 0px;
+  left: 170px;
+  margin: 0px;
 }

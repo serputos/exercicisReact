@@ -18,7 +18,7 @@ function Comptador() {
 
   return (
     <div className="App">
-      <div className="Display">{display}</div>
+      <div className="DisplayComptador">{display}</div>
       {numeros.map((valor) => (
         <button onClick={() => entraOperacio(valor)}>{valor}</button>
       ))}
