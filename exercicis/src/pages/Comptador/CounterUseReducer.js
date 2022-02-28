@@ -1,5 +1,5 @@
 import "./Comptador.css";
-import { useState, useReducer } from "react";
+import { useReducer } from "react";
 import { counter, Operacio, Reset } from "./Counter";
 
 //const numeros = ["+1", "-1", "+5"];

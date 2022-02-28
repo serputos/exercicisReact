@@ -5,8 +5,8 @@
 }
 .fotoGran {
   position: absolute;
-  width: 98%;
-  height: 98%;
+  width: 110vh;
+  height: 70vh;
 }
 .fotoPetita {
   width: 20%;

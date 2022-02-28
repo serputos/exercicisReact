@@ -10,6 +10,7 @@ import Exercici1 from "./exercicisObjectesArrays/Exercici1";
 import Exercici2 from "./exercicisObjectesArrays/Exercici2";
 import Exercici3 from "./exercicisObjectesArrays/Exercici3";
 import Exercici4 from "./exercicisObjectesArrays/Exercici4";
+import Exercici5 from "./exercicisObjectesArrays/Exercici5";
 
 const llista = [
   { path: "Comptador/Comptador", titol: "Comptador", element: <Comptador /> },
@@ -55,6 +56,11 @@ const llista = [
     path: "exercicisObjectesArrays/Exercici4",
     titol: "Exercici4",
     element: <Exercici4 />,
+  },
+  {
+    path: "exercicisObjectesArrays/Exercici5",
+    titol: "Exercici5",
+    element: <Exercici5 />,
   },
 ];
 
