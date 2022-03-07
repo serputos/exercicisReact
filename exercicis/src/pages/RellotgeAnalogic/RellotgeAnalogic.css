@@ -44,12 +44,13 @@
   transform-origin: bottom center;
 }
 
-.circulo {
+span.circulo {
   position: absolute;
   height: 40vh;
   width: 40vh;
   background-color: #bbb;
   border-radius: 50%;
+  align-self: center;
 }
 
 #doce {

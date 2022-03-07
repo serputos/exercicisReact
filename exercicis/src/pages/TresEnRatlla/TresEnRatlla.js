@@ -35,6 +35,8 @@ function TresEnRatlla() {
       setValue(true);
     }
     checkEnd();
+    //getGuanyador();
+
     Reinico();
   };
   const Reinico = () => {
@@ -83,7 +85,12 @@ function TresEnRatlla() {
       <div className="DisplayTres">
         <div>
           {array.map((boto, i) => (
-            <button className="boto" onClick={() => ChangeValue(i)}>
+            <button
+              className={
+                boto === "X" ? "botoX" : boto === "O" ? "botoO" : "boto"
+              }
+              onClick={() => ChangeValue(i)}
+            >
               {array[i]}
             </button>
           ))}

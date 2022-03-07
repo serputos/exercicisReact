@@ -7,7 +7,7 @@ function Exercici4() {
   const [newArray, setNewArray] = useState(vector);
 
   function miraNoRepetidos() {
-    console.log(doOnce);
+   
     if (!doOnce) {
       newArray.forEach(() => {
         let dupNumbers = newArray.filter((value, index) => {

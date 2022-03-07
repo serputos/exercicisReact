@@ -3,7 +3,7 @@ export function Fotogran(i) {
   return { type: FOTOGRAN, i };
 }
 const FOTOPETITA = "fotoPetita";
-export function FotoPetita(state) {
+export function FotoPetita() {
   return { type: FOTOPETITA };
 }
 export function reducer(state = null, action) {

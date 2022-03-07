@@ -1,11 +1,22 @@
 .DisplayTres {
   display: flex;
   flex-direction: column;
-  width: 450px;
+
   left: 50%;
 }
 
 .boto {
+  width: 150px;
+  height: 150px;
+}
+.botoX {
+  background-color: rgb(55, 166, 218);
+  width: 150px;
+  height: 150px;
+}
+
+.botoO {
+  background-color: rgb(66, 141, 66);
   width: 150px;
   height: 150px;
 }

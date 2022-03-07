@@ -29,7 +29,7 @@ function RellotgeDigital() {
     <div className="AppRellotge">
       <div className="DisplayRellotge">
         <>
-          <p>{displayHora.toLocaleString().slice(11, 19)}</p>
+          <p>{displayHora.toLocaleString().slice(10, 19)}</p>
           <p className={view}>{displayHora.toLocaleString().slice(0, 9)}</p>
           <button onClick={() => viewDate()}>Mostrar/Ocultar FECHA</button>
         </>
