@@ -21,28 +21,24 @@ function TresEnRatlla() {
   let copia = [...array];
 
   const ChangeValue = (i) => {
-    if (array.includes("-") === false) {
+    if (array.includes("-") === false && !win) {
       setTexto("EMPATE");
       setWin(true);
     }
-    if (copia[i] === "-" && value === true) {
+    if (copia[i] === "-" && value === true && !win) {
       copia[i] = "X";
       setArray(copia);
       setValue(false);
-    } else if (copia[i] === "-" && value === false) {
+    } else if (copia[i] === "-" && value === false && !win) {
       copia[i] = "O";
       setArray(copia);
       setValue(true);
     }
     checkEnd();
     //getGuanyador();
-
-    Reinico();
   };
-  const Reinico = () => {
-    if (win === true) {
-      document.location.reload(true);
-    }
+  const Reinicio = () => {
+    document.location.reload(true);
   };
 
   const checkEnd = () => {
@@ -81,7 +77,7 @@ function TresEnRatlla() {
   };
 
   return (
-    <div className="App">
+    <div className="AppTres">
       <div className="DisplayTres">
         <div>
           {array.map((boto, i) => (
@@ -95,6 +91,7 @@ function TresEnRatlla() {
             </button>
           ))}
         </div>
+        <button onClick={() => Reinicio()}>RESET</button>
         <h1>{texto}</h1>
       </div>
     </div>

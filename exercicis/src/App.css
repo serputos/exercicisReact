@@ -17,6 +17,7 @@ body,
   flex: 1;
 
   margin-top: 50px;
+  min-width: 500px;
 }
 
 .HolyGrail-nav,

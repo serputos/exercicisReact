@@ -11,6 +11,7 @@ import Exercici2 from "./exercicisObjectesArrays/Exercici2";
 import Exercici3 from "./exercicisObjectesArrays/Exercici3";
 import Exercici4 from "./exercicisObjectesArrays/Exercici4";
 import Exercici5 from "./exercicisObjectesArrays/Exercici5";
+import Toggle from "./ToggleButton/Toggle";
 
 const llista = [
   { path: "Comptador/Comptador", titol: "Comptador", element: <Comptador /> },
@@ -61,6 +62,11 @@ const llista = [
     path: "exercicisObjectesArrays/Exercici5",
     titol: "Exercici5",
     element: <Exercici5 />,
+  },
+  {
+    path: "ToggleButton/Toggle",
+    titol: "ToggleButton",
+    element: <Toggle />,
   },
 ];
 

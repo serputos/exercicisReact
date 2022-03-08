@@ -1,0 +1,13 @@
+.boto1 {
+  background-color: rgb(95, 188, 231);
+}
+
+.boto2 {
+  background-color: rgb(141, 66, 66);
+}
+
+.DisplayToggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
