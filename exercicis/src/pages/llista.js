@@ -12,6 +12,8 @@ import Exercici3 from "./exercicisObjectesArrays/Exercici3";
 import Exercici4 from "./exercicisObjectesArrays/Exercici4";
 import Exercici5 from "./exercicisObjectesArrays/Exercici5";
 import Toggle from "./ToggleButton/Toggle";
+import CounterRedux from "./ComptadorRedux/CounterRedux";
+import CounterApp from "./ComptadorRedux/CounterApp";
 
 const llista = [
   { path: "Comptador/Comptador", titol: "Comptador", element: <Comptador /> },
@@ -67,6 +69,11 @@ const llista = [
     path: "ToggleButton/Toggle",
     titol: "ToggleButton",
     element: <Toggle />,
+  },
+  {
+    path: "ComptadorRedux/counterApp",
+    titol: "CounterRedux",
+    element: <CounterApp />,
   },
 ];
 

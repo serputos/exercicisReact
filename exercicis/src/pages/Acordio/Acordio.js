@@ -11,6 +11,7 @@ const titolsArray = [
 
 function Acordio() {
   const [titolSelect, setTitolSelect] = useState(null);
+  const [mostra, setMostra] = useState(true);
 
   const mostraContingut = (i) => {
     setTitolSelect(titolsArray.indexOf(i));
@@ -26,7 +27,15 @@ function Acordio() {
         {titolsArray.map((titol, i) => (
           <>
             <h1 onClick={() => mostraContingut(titol)}>{titol.Titol}</h1>
-            <h2 className={i === titolSelect ? "mostra" : "noMostra"}>
+            <h2
+              className={
+                i === titolSelect
+                  ? "mostras"
+                  : i !== titolSelect
+                  ? "noMostra"
+                  : "mostras"
+              }
+            >
               {titol.Contingut + " " + (i + 1)}
             </h2>
           </>

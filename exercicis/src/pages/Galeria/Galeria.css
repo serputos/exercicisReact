@@ -2,11 +2,12 @@
   gap: 20px;
 
   display: flex;
+  position: relative;
 }
 .fotoGran {
   position: absolute;
-  width: 110vh;
-  height: 70vh;
+  width: 100%;
+  height: auto;
 }
 .fotoPetita {
   width: 20%;
